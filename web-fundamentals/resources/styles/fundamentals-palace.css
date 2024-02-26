@@ -4,6 +4,11 @@
   font-family: Tahoma, Verdana, sans-serif;
 }
 
+*::selection {
+  color: white;
+  background-color: #1182eb;
+}
+
 body {
   background-color: white;
   max-width: 1400px;
@@ -37,4 +42,18 @@ header h1 {
   margin: 10px;
   min-height: 300px;
   border-radius: 30px;
+}
+
+h2, h3, h4, h5, h6 {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+#penelope-list {
+  list-style-type: none;
+}
+
+span {
+  font-size: 1.5em;
+  color: #b48ce0;
 }
