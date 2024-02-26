@@ -34,5 +34,7 @@ header h1 {
 }
 
 .card img {
-  
+  margin: 10px;
+  min-height: 300px;
+  border-radius: 30px;
 }
