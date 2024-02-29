@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap");
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "IBM Plex Sans Arabic", "sans-serif";
+  color: #384066;
+  background-color: #fefdf7;
+}
+
+header {
+  background-color: #fefdf7;
+  padding: 10px 20px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+header nav .logo img {
+  margin: 0 10px;
+  width: 20%;
+  height: auto;
+}
+header nav .logo h1 {
+  font-family: "Boogaloo", "sans-serif";
+  color: #384066;
+  font-size: 3em;
+}
+
+.dadvice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+  text-align: center;
+}
+.dadvice .button {
+  justify-content: center;
+}
+.dadvice div {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  align-items: center;
+}
+.dadvice div p {
+  padding: 10px;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  font-family: "IBM Plex Sans Arabic", "sans-serif";
+  background-color: #fefcdd;
+  font-weight: 500;
+}
+footer li {
+  list-style-type: none;
+}
+footer li:nth-child(2) {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  margin: 0 30px 30px;
+  width: 200px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  background-color: #384066;
+  font-weight: bold;
+}
+.button a {
+  color: #fefdf7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  border: 1px solid #384066;
+  height: 40px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  padding: 20px 25px;
+  border-radius: 5px;
+  font-family: "IBM Plex Sans Arabic", "sans-serif";
+  font-weight: bold;
+  font-size: 1.125em;
+}
+.login a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tagline {
+  width: 95vw;
+  margin: 20px;
+  text-align: center;
+  color: #1bb9f1;
+}
+.tagline h2 {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "Comic Neue", cursive;
+}
+
+figure {
+  margin-bottom: 30px;
+}
+
+.sub-heading {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.sub-heading h3 {
+  font-size: 1.5em;
+}
+.sub-heading h4 {
+  color: #1bb9f1;
+  font-size: 1.3em;
+}
+.sub-heading h3,
+.sub-heading h4,
+.sub-heading p {
+  padding: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+a {
+  color: #384066;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+
+a:hover {
+  cursor: pointer;
+  font-size: larger;
+}
+
+.login:hover,
+.button:hover {
+  box-shadow: 3px 3px black;
+}
+
+.login:active,
+.button:active {
+  box-shadow: 1px 1px black;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  font-size: 17px;
+}/*# sourceMappingURL=main.css.map */

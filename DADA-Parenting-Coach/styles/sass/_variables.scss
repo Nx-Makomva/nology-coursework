@@ -1,0 +1,13 @@
+// imported fonts from google fonts -> Boogaloo, Comic Neue & IBM Plex Sans Arabic
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap");
+
+//Variables for font themes here
+$font-logo: "Boogaloo", "sans-serif";
+$font-tagline: "Comic Neue", cursive;
+$font-paragraphs: "IBM Plex Sans Arabic", "sans-serif";
+
+//Variables for colour themes here
+$color-primary: #384066;
+$color-background: #fefdf7;
+$color-tagline: #1bb9f1;
+$color-footer: #fefcdd;

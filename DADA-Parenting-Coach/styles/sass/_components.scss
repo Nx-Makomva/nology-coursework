@@ -1,0 +1,88 @@
+@use "./variables" as *;
+@use "./layouts" as *;
+
+// 'Dadvice' and 'Sign Up' buttons
+.button {
+  display: flex;
+  align-items: center;
+  margin: 0 30px 30px;
+  width: 200px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  background-color: $color-primary;
+  font-weight: bold;
+
+  a {
+    color: $color-background;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+// Login button
+.login {
+  border: 1px solid $color-primary;
+  height: 40px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  padding: 20px 25px;
+  border-radius: 5px;
+  font-family: $font-paragraphs;
+  font-weight: bold;
+  font-size: 1.125em;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+// First title, in blue, introducing parenting coach idea. 'Tagline' is the container
+.tagline {
+  width: 95vw;
+  margin: 20px;
+  text-align: center;
+  color: $color-tagline;
+
+  h2 {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: $font-tagline;
+  }
+}
+
+// Device mock-up picture
+figure {
+  margin-bottom: 30px;
+}
+
+// The headings and paragraphs above the 'Dadvice' button
+.sub-heading {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  text-align: center;
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  // The blue heading in the middle
+  h4 {
+    color: $color-tagline;
+    font-size: 1.3em;
+  }
+
+  h3,
+  h4,
+  p {
+    padding: 10px;
+  }
+}

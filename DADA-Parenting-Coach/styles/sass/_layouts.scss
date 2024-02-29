@@ -1,0 +1,84 @@
+@use "./variables" as *;
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: $font-paragraphs;
+  color: $color-primary;
+  background-color: $color-background;
+}
+
+header {
+  background-color: $color-background;
+  padding: 10px 20px;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    // Container for penguin img and "DADA" title
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      // Penguin dad & baby img at top of page
+      img {
+        margin: 0 10px;
+        width: 20%;
+        height: auto;
+      }
+
+      // DADA title
+      h1 {
+        font-family: $font-logo;
+        color: $color-primary;
+        font-size: 3em;
+      }
+    }
+  }
+}
+
+// Container for entire dadvice section
+.dadvice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+  text-align: center;
+
+  .button {
+    justify-content: center;
+  }
+
+  // The 4 div elements containing a paragraph and penguin picture
+  div {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+
+    p {
+      padding: 10px;
+    }
+  }
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  font-family: $font-paragraphs;
+  background-color: $color-footer;
+  font-weight: 500;
+
+  li {
+    list-style-type: none;
+  }
+
+  li:nth-child(2) {
+    list-style-type: none;
+    padding: 20px;
+  }
+}
