@@ -16,8 +16,8 @@ console.log(isNumberPositive(-6));
       // convertDaysToAge(6570); // returns 18
 
       const convertDaysToAge = (ageInDays) => {
-          ageInYears = Math.floor(ageInDays / 365);
-          return `${ageInYears} years`;
+            ageInYears = Math.floor(ageInDays / 365);
+            return `${ageInYears} years`;
       }
 
 console.log(convertDaysToAge(45056));
@@ -27,9 +27,9 @@ console.log(convertDaysToAge(45056));
       // getLargestNumber(6,2,3); // returns 6
 
       const getLargestNumber = (num1, num2, num3) => {
-        const numbers = [num1, num2, num3];
-        const largestNumber = Math.max(...numbers); // Can also just add num1, num2 & num3 in the brackets to avoid creating new variable
-        return `The largest number is ${largestNumber}`;
+          const numbers = [num1, num2, num3];
+          const largestNumber = Math.max(...numbers); // Can also just add num1, num2 & num3 in the brackets to avoid creating new variable
+          return `The largest number is ${largestNumber}`;
       }
 
   console.log(getLargestNumber(12, 18, 6));
@@ -38,8 +38,11 @@ console.log(convertDaysToAge(45056));
       // getLastName([”Charlie”, “Rob”, “Andy”]); // returns “Andy”
       // getLastName(["Ash","Stu"]); // returns "Stu"
 
+      const getLastNameofArray = (nameArray) => {
+          return nameArray.length -1;
+      }
 
-
+  console.log(getLargestNumber['jo', 'nic', 'ben', 'dan', 'sed']);
 // 5. Write a function that takes an array of numbers and returns true if all of the numbers are positive. It should return false if there are one or more negative numbers in the array.
       // allNumbersPositive([2,4,5]); // returns true
       // allNumbersPositive([-5,4,6]); // returns false
