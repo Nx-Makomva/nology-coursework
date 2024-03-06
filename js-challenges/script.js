@@ -45,8 +45,25 @@ console.log(convertDaysToAge(45056));
       }
       
   console.log(getLastNameofArray(['jo', 'nic', 'ben', 'dan', 'sed', 'pablo',]));
+
 // 5. Write a function that takes an array of numbers and returns true if all of the numbers are positive. It should return false if there are one or more negative numbers in the array.
       // allNumbersPositive([2,4,5]); // returns true
       // allNumbersPositive([-5,4,6]); // returns false
 
+      const allNumbersPositive = (numArray) => {
+        for (let index = 0; index < numArray.length; index++) {
+            if (numArray[index] < 0) {
+              return false;
+            }
+          } 
+          return true;
+        } 
+        // Note: take true return statement out of for loop for it to work
+        // - Have the if statement check if there are negative numbers instead otherwise it returns true first time it encounters a positive number
+      
+    
+  console.log(allNumbersPositive([2, 0, 5, 4, 0, -7]));
+  console.log(allNumbersPositive([2, 0, 5, 4, 0, 7]));
+  console.log(allNumbersPositive([-2, 0, 5, 4, 0, 1347]));
+  console.log(allNumbersPositive([2, 10, 5, 4, 0, 27]));
 
