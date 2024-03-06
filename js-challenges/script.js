@@ -39,10 +39,12 @@ console.log(convertDaysToAge(45056));
       // getLastName(["Ash","Stu"]); // returns "Stu"
 
       const getLastNameofArray = (nameArray) => {
-          return nameArray.length -1;
+          return nameArray[nameArray.length -1]; // When accessing elements in an array, you need to use square brackets 
+                                                // to indicate that ur accessing something within it. Then use array-name & index
+                                                // you're looking for (nameArray.length -1) - length of array minus 1. 
       }
-
-  console.log(getLargestNumber['jo', 'nic', 'ben', 'dan', 'sed']);
+      
+  console.log(getLastNameofArray(['jo', 'nic', 'ben', 'dan', 'sed', 'pablo',]));
 // 5. Write a function that takes an array of numbers and returns true if all of the numbers are positive. It should return false if there are one or more negative numbers in the array.
       // allNumbersPositive([2,4,5]); // returns true
       // allNumbersPositive([-5,4,6]); // returns false
